@@ -75,11 +75,11 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "chris~" + string_session;
+                        let md = "litechris~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, CHRISM-XD User!* 👋🏻
+                        let desc = `*Hey there, LITECHRIS-V2 User!* 👋🏻
 
-Thanks for using *CHRISM-XD* — your session has been successfully created!
+Thanks for using *LITECHRIS-V2* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -92,7 +92,7 @@ https://whatsapp.com/channel/0029Vb5qc6N2Jl8E3EcVBv0t
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/Xchristech/CHRISM-XD
+https://github.com/Xchristech/LiteChris-V2
 
 ——————
 
@@ -113,9 +113,9 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `Hey there, CHRISM-XD User!* 👋🏻
+                            let desc = `Hey there, LITECHRIS-V2 User!* 👋🏻
 
-Thanks for using *CHRISM-XD* — your session has been successfully created!
+Thanks for using *LITECHRIS-V2* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -128,7 +128,7 @@ https://whatsapp.com/channel/0029Vb5qc6N2Jl8E3EcVBv0t
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/Xchristech/CHRISM-XD
+https://github.com/Xchristech/LiteChris-V2 
 
 ——————
 
